@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/app/languages/lang-en.json" line="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23ca0c4b-1064-4a35-8ab8-c3a143939906" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="report.orders.form.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/components/reports/orders/report.orders.form.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!block;n#generate#0;n#ReportOrdersFormComponent#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.orders.group.by.constants.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/reports/orders/report.orders.group.by.constants.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.orders.form.template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/templates/reports/report.orders.form.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2142">
+              <caret line="102" column="35" lean-forward="false" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+              <folding>
+                <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'@</find>
+      <find>isDeleteInProcess</find>
+      <find>orderId</find>
+      <find>.selected</find>
+      <find>ordersTableComponent</find>
+      <find>sortProper</find>
+      <find>public $onInit():void {</find>
+      <find>public $onChanges</find>
+      <find>$scope.$watch</find>
+      <find>this.$scope.$watch</find>
+      <find>state=&quot;</find>
+      <find>ng-click=&quot;vm.onRowClickImpl</find>
+      <find>toggleColapse</find>
+      <find>&lt;orders-tab</find>
+      <find>&lt;monitor-products-table</find>
+      <find>sort-property</find>
+      <find>isState</find>
+      <find>&lt;customers-tab</find>
+      <find>$q</find>
+      <find>ng.</find>
+      <find>angular.</find>
+      <find>start</find>
+      <find>&lt;orders-table</find>
+      <find>&lt;customers-</find>
+      <find>&lt;customers-table</find>
+      <find>&lt;monitor-prod</find>
+      <find>orders</find>
+      <find>showProducts</find>
+      <find>forEach</find>
+      <find>כללי</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;../interfaces/network.object.interface&quot;;</replace>
+      <replace>NetworkObjectInterface</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\YRIAZNOV\Desktop\My Documents BMC\private\Projects\BusinessManager\WebClient\node_modules\bootstrap</dir>
+      <dir>C:\Users\YRIAZNOV\Desktop\My Documents BMC\private\Projects\BusinessManager\WebClient\node_modules</dir>
+      <dir>C:\Users\YRIAZNOV\Desktop\My Documents BMC\private\Projects\BusinessManager\WebClient</dir>
+      <dir>C:\Users\yriaznov\Desktop\My Documents\Private\Projects\BManager\WebClient</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/assets/css/app-general.css" />
+        <option value="$PROJECT_DIR$/src/app/templates/reports/report.products.form.template.html" />
+        <option value="$PROJECT_DIR$/src/app/templates/reports/report.customers.form.template.html" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.msg.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/modules/customers.module.ts" />
+        <option value="$PROJECT_DIR$/info.txt" />
+        <option value="$PROJECT_DIR$/src/app/services/confirmation.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/system/users.tab.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/categories.tab.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/templates/customers/customers.table.template.html" />
+        <option value="$PROJECT_DIR$/src/app/components/customers/customers.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/products/products.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/modules/products.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/customers.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/templates/customers.template.html" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/customers/report.customers.result.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/customers.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/products.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/templates/tables/products.table.template.html" />
+        <option value="$PROJECT_DIR$/src/app/templates/tabs/products.tab.template.html" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/products/report.products.result.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/products.tab.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/templates/tables/customers.table.template.html" />
+        <option value="$PROJECT_DIR$/src/app/templates/orders.template.html" />
+        <option value="$PROJECT_DIR$/src/app/modules/orders.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/objects/order/order.comparator.object.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/orders/report.orders.group.by.object.ts" />
+        <option value="$PROJECT_DIR$/src/app/objects/order/order.filter.object.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/orders.group.by.products.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/modules/monitor.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/state.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/order.rows.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/base.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/templates/tabs/monitor.products.tab.template.html" />
+        <option value="$PROJECT_DIR$/src/app/services/monitor.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/monitor/monitor.products.tab.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/monitor/monitor.base.tab.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/orders.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/templates/tabs/monitor.orders.tab.template.html" />
+        <option value="$PROJECT_DIR$/src/app/templates/tables/order.rows.table.template.html" />
+        <option value="$PROJECT_DIR$/src/app/templates/tables/orders.table.template.html" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/monitor/monitor.orders.tab.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/monitor.products.table.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/templates/tables/monitor.products.table.template.html" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/orders/report.orders.result.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/orders.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/orders/report.orders.form.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/templates/reports/report.orders.form.template.html" />
+        <option value="$PROJECT_DIR$/src/app/languages/lang-en.json" />
+        <option value="$PROJECT_DIR$/src/app/languages/lang-heb.json" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/orders/report.orders.group.by.constants.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="copy-vendor-debug" info="Alias for &quot;clean:vendors-debug&quot;, &quot;copy:vendor-js-debug&quot;, &quot;copy:vendor-css-debug&quot;, &quot;copy:vendor-fonts-debug&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean:vendors-debug" />
+        <dependency value="copy:vendor-js-debug" />
+        <dependency value="copy:vendor-css-debug" />
+        <dependency value="copy:vendor-fonts-debug" />
+      </alias-task>
+      <alias-task name="build-debug" info="Alias for &quot;copy-vendor-debug&quot;, &quot;cssmin:debug-assets&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="copy-vendor-debug" />
+        <dependency value="cssmin:debug-assets" />
+      </alias-task>
+      <alias-task name="copy-templates-release" info="Alias for &quot;copy:index-release&quot;, &quot;copy:systemjs-config-release&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="copy:index-release" />
+        <dependency value="copy:systemjs-config-release" />
+      </alias-task>
+      <alias-task name="copy-release" info="Alias for &quot;copy:imgs&quot;, &quot;copy:styles&quot;, &quot;copy:html-templates&quot;, &quot;copy:languages&quot;, &quot;copy:vendors&quot;, &quot;copy-templates-release&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="copy:imgs" />
+        <dependency value="copy:styles" />
+        <dependency value="copy:html-templates" />
+        <dependency value="copy:languages" />
+        <dependency value="copy:vendors" />
+        <dependency value="copy-templates-release" />
+      </alias-task>
+      <alias-task name="default" info="Alias for &quot;build-debug&quot;, &quot;clean:release&quot;, &quot;uglify:all&quot;, &quot;copy-release&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="build-debug" />
+        <dependency value="clean:release" />
+        <dependency value="uglify:all" />
+        <dependency value="copy-release" />
+      </alias-task>
+      <core-task name="clean" info="Clean files and folders." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-clean/tasks/clean.js" multi="true">
+        <target value="release" />
+        <target value="vendors-debug" />
+      </core-task>
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
+        <target value="all" />
+      </core-task>
+      <core-task name="cssmin" info="Minify CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/tasks/cssmin.js" multi="true">
+        <target value="debug-assets" />
+      </core-task>
+      <core-task name="copy" info="Copy files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-copy/tasks/copy.js" multi="true">
+        <target value="vendor-js-debug" />
+        <target value="vendor-css-debug" />
+        <target value="vendor-fonts-debug" />
+        <target value="imgs" />
+        <target value="styles" />
+        <target value="html-templates" />
+        <target value="languages" />
+        <target value="vendors" />
+        <target value="index-release" />
+        <target value="systemjs-config-release" />
+      </core-task>
+    </gruntfile>
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="orders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="languages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="lan-e&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/languages/lang-en.json&#10;mon&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/tables/monitor.products.table.component.ts&#10;orders.tab&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tables/orders.table.template.html&#10;monitor.prod&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/tables/monitor.products.table.component.ts&#10;monitor.&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tables/monitor.products.table.template.html&#10;orders.table.template.html&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tables/orders.table.template.html&#10;webser&#9;null&#9;null&#10;monitor.orders&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tabs/monitor.orders.tab.template.html&#10;monitor.pr&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tabs/monitor.products.tab.template.html&#10;monitor&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tables/monitor.products.table.template.html&#10;monitor.pro&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tables/monitor.products.table.template.html&#10;BaseTab&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/tables/base.table.component.ts&#10;monitor.ser&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/services/monitor.service.ts&#10;report.order&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/reports/orders/report.orders.result.component.ts&#10;report.orders&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/reports/orders/report.orders.result.component.ts&#10;lan-&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/languages/lang-en.json&#10;product.ob&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/objects/product/product.object.js&#10;report.orders.form.template&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/reports/report.orders.form.template.html&#10;customert&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/reports/report.customers.form.template.html&#10;web&#9;null&#9;null&#10;lan-en&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/languages/lang-en.json&#10;users.&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tabs/users.tab.template.html&#10;report.mo&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/modules/reports.module.ts&#10;report.mod&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/modules/reports.module.ts&#10;ReportsComp&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/reports.component.ts&#10;customer.ser&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/services/customer.service.ts&#10;product.se&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/services/product.service.ts&#10;lan&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/languages/lang-en.json&#10;order.mo&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/modals/order.modal.template.html&#10;order&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/modals/order/order.add.modal.component.js&#10;orders&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/orders.component.ts&#10;rep&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/reports.component.ts&#10;report&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/reports.template.html&#10;monitor.order&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/tabs/monitor/monitor.orders.tab.component.ts&#10;monitor.or&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tabs/monitor.orders.tab.template.html&#10;lan-he&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/languages/lang-heb.json&#10;user&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/objects/user/user.access.object.ts&#10;settin&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/tabs/settings.tab.template.html&#10;user.&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/modals/user.modal.template.html&#10;webs&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/constants/webserver.constants.ts&#10;nav&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/navigation.template.html&#10;user.ob&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/objects/user/user.object.ts&#10;user.moda&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/templates/modals/user.modal.template.html&#10;cate&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/tabs/categories.tab.component.ts&#10;cons&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/constants/communication.constants.ts&#10;user.obje&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/objects/user/user.object.ts&#10;user.fi&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/objects/user/user.filter.object.ts&#10;login&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/components/login.component.ts&#10;login.ser&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/services/login.service.ts&#10;order.ser&#9;FILE&#9;file://C:/Users/yriaznov/Desktop/My Documents/Private/Projects/BManager/WebClient/src/app/services/order.service.ts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/objects/product" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$USER_HOME$/AppData/Roaming/npm/node_modules/grunt-cli" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yriaznov\Desktop\My Documents\Private\Projects\BManager\WebClient\src\app\templates\reports" />
+      <recent name="C:\Users\YRIAZNOV\Desktop\My Documents BMC\private\Projects\BusinessManager\WebClient\release" />
+      <recent name="C:\Users\YRIAZNOV\Desktop\My Documents BMC\private\Projects\BusinessManager\WebClient\src\app\vendors" />
+      <recent name="C:\Users\YRIAZNOV\Desktop\My Documents BMC\private\Projects\BusinessManager\WebClient\src\app\assets\img" />
+      <recent name="C:\Users\YRIAZNOV\Desktop\My Documents BMC\private\Projects\BusinessManager\WebClient\src\app\components\modals" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yriaznov\Desktop\My Documents\Private\Projects\BManager\WebClient\src\app\components\tables" />
+      <recent name="C:\Users\yriaznov\Desktop\My Documents\Private\Projects\BManager\WebClient\src\app\components" />
+      <recent name="C:\Users\yriaznov\Desktop\My Documents\Private\Projects\BManager\WebClient\src\app\templates\tables" />
+      <recent name="C:\Users\yriaznov\Desktop\My Documents\Private\Projects\BManager\WebClient\src\app\components\customers" />
+      <recent name="C:\Users\yriaznov\Desktop\My Documents\Private\Projects\BManager\WebClient\src\app\components\reports\products" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.debug.html">
+    <configuration name="index.debug.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebClient/src/index.debug.html" />
+    <configuration name="index.debug.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebClient/src/index.debug.html" />
+    <configuration name="index.release.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebClient/templates/index.release.html" />
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="build-debug" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="build-debug" />
+      </tasks>
+      <envs />
+    </configuration>
+    <configuration name="cssmin" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="cssmin" />
+      </tasks>
+      <envs />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Grunt.js.cssmin" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.debug.html" />
+      <item index="2" class="java.lang.String" itemvalue="Grunt.js.build-debug" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.release.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.debug.html (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.debug.html" />
+        <item index="1" class="java.lang.String" itemvalue="Grunt.js.build-debug" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.debug.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Grunt.js.cssmin" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.release.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23ca0c4b-1064-4a35-8ab8-c3a143939906" name="Default" comment="" />
+      <created>1510682237905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510682237905</updated>
+      <workItem from="1510682240263" duration="14128000" />
+      <workItem from="1510766579373" duration="4232000" />
+      <workItem from="1510777943746" duration="4774000" />
+      <workItem from="1510868472216" duration="5153000" />
+      <workItem from="1511009706869" duration="24021000" />
+      <workItem from="1511206261811" duration="33000" />
+      <workItem from="1511206501363" duration="9236000" />
+      <workItem from="1511282579581" duration="19729000" />
+      <workItem from="1511344074801" duration="11197000" />
+      <workItem from="1511374076608" duration="13186000" />
+      <workItem from="1511426576668" duration="11154000" />
+      <workItem from="1511464637418" duration="145000" />
+      <workItem from="1511464987920" duration="12168000" />
+      <workItem from="1511528704869" duration="7741000" />
+      <workItem from="1511545422169" duration="4540000" />
+      <workItem from="1511624968246" duration="13308000" />
+      <workItem from="1511732728972" duration="6035000" />
+      <workItem from="1511791704329" duration="1662000" />
+      <workItem from="1511809517889" duration="6463000" />
+      <workItem from="1511900631485" duration="4919000" />
+      <workItem from="1512582615309" duration="11652000" />
+      <workItem from="1512670139355" duration="23469000" />
+      <workItem from="1512927821963" duration="3638000" />
+      <workItem from="1513017174572" duration="14027000" />
+      <workItem from="1513099116634" duration="11961000" />
+      <workItem from="1513191341530" duration="6235000" />
+      <workItem from="1513455682453" duration="7886000" />
+      <workItem from="1513537565023" duration="7350000" />
+      <workItem from="1513629181976" duration="6400000" />
+      <workItem from="1513690079281" duration="13948000" />
+      <workItem from="1513758286894" duration="9401000" />
+      <workItem from="1513798754575" duration="50416000" />
+      <workItem from="1514145966734" duration="11511000" />
+      <workItem from="1514208273350" duration="633000" />
+      <workItem from="1514318313199" duration="7249000" />
+      <workItem from="1514384709000" duration="1902000" />
+      <workItem from="1514408186621" duration="16195000" />
+      <workItem from="1514495602330" duration="8675000" />
+      <workItem from="1514549090846" duration="43900000" />
+      <workItem from="1514739534815" duration="11798000" />
+      <workItem from="1514814336259" duration="2658000" />
+      <workItem from="1514916743294" duration="311000" />
+      <workItem from="1514917241750" duration="10461000" />
+      <workItem from="1514968622764" duration="6100000" />
+      <workItem from="1514990853681" duration="15174000" />
+      <workItem from="1515083305187" duration="36408000" />
+      <workItem from="1515236046916" duration="22869000" />
+      <workItem from="1515436480664" duration="13119000" />
+      <workItem from="1515522839965" duration="19147000" />
+      <workItem from="1515609312998" duration="13146000" />
+      <workItem from="1515658872720" duration="9450000" />
+      <workItem from="1515753241197" duration="43128000" />
+      <workItem from="1515917680502" duration="12223000" />
+      <workItem from="1516025063625" duration="37000" />
+      <workItem from="1516025366863" duration="660000" />
+      <workItem from="1516040666490" duration="4879000" />
+      <workItem from="1516052102818" duration="1350000" />
+      <workItem from="1516123305209" duration="16766000" />
+      <workItem from="1516195737597" duration="6674000" />
+      <workItem from="1516300885135" duration="22000" />
+      <workItem from="1516301238779" duration="7931000" />
+      <workItem from="1516477944125" duration="4498000" />
+      <workItem from="1516558607129" duration="8554000" />
+      <workItem from="1516630577113" duration="3695000" />
+      <workItem from="1516644750246" duration="9516000" />
+      <workItem from="1516726182875" duration="3684000" />
+      <workItem from="1516816322660" duration="3848000" />
+      <workItem from="1516900471066" duration="2589000" />
+      <workItem from="1516910432172" duration="626000" />
+      <workItem from="1516971976510" duration="16419000" />
+      <workItem from="1517334745985" duration="6602000" />
+      <workItem from="1517422412600" duration="9487000" />
+      <workItem from="1517472904190" duration="609000" />
+      <workItem from="1517508676476" duration="11100000" />
+      <workItem from="1517586416326" duration="13622000" />
+      <workItem from="1517771228852" duration="5129000" />
+      <workItem from="1517941113135" duration="10330000" />
+      <workItem from="1517957459938" duration="31000" />
+      <workItem from="1518023159463" duration="11396000" />
+      <workItem from="1518118062991" duration="669000" />
+      <workItem from="1518372396205" duration="13198000" />
+      <workItem from="1518431959963" duration="94000" />
+      <workItem from="1518628904379" duration="4419000" />
+      <workItem from="1518715987589" duration="10724000" />
+      <workItem from="1518977032144" duration="7136000" />
+      <workItem from="1519061727927" duration="15302000" />
+      <workItem from="1519149406209" duration="2995000" />
+      <workItem from="1519205375732" duration="14907000" />
+      <workItem from="1519289194098" duration="765000" />
+      <workItem from="1519304074273" duration="6000" />
+      <workItem from="1519333381017" duration="16973000" />
+      <workItem from="1519836594063" duration="12605000" />
+      <workItem from="1519932033846" duration="6778000" />
+      <workItem from="1520323013567" duration="7052000" />
+      <workItem from="1520415527432" duration="4746000" />
+      <workItem from="1520502156204" duration="17709000" />
+      <workItem from="1520792815603" duration="2289000" />
+      <workItem from="1520875434518" duration="6598000" />
+      <workItem from="1521048290036" duration="6913000" />
+      <workItem from="1521548361536" duration="7000" />
+      <workItem from="1521997528843" duration="7408000" />
+      <workItem from="1522086340854" duration="2453000" />
+      <workItem from="1522170324350" duration="8546000" />
+      <workItem from="1522261036977" duration="1693000" />
+      <workItem from="1522600407015" duration="10585000" />
+      <workItem from="1523469900768" duration="1502000" />
+      <workItem from="1523817561579" duration="3575000" />
+      <workItem from="1523900253934" duration="3466000" />
+      <workItem from="1523988063873" duration="731000" />
+      <workItem from="1524943995096" duration="5147000" />
+      <workItem from="1525024552479" duration="2955000" />
+      <workItem from="1525101931896" duration="794000" />
+      <workItem from="1525196221258" duration="3709000" />
+      <workItem from="1525763778360" duration="15096000" />
+      <workItem from="1525853490642" duration="13771000" />
+      <workItem from="1526554181427" duration="633000" />
+      <workItem from="1526652107231" duration="5948000" />
+      <workItem from="1527448059610" duration="359000" />
+      <workItem from="1527535006499" duration="3298000" />
+      <workItem from="1527609943457" duration="611000" />
+      <workItem from="1527700977612" duration="2879000" />
+      <workItem from="1528391321144" duration="19636000" />
+      <workItem from="1528736571835" duration="43586000" />
+      <workItem from="1529306108815" duration="23770000" />
+      <workItem from="1529952623301" duration="5794000" />
+      <workItem from="1530724632272" duration="2368000" />
+      <workItem from="1531040060510" duration="9673000" />
+      <workItem from="1531144146122" duration="11067000" />
+      <workItem from="1531239893896" duration="8344000" />
+      <workItem from="1531328188514" duration="9204000" />
+      <workItem from="1531410811959" duration="23553000" />
+      <workItem from="1531678170386" duration="7139000" />
+      <workItem from="1531762370345" duration="1922000" />
+      <workItem from="1531929896739" duration="625000" />
+      <workItem from="1532022483249" duration="13062000" />
+      <workItem from="1532282064807" duration="7169000" />
+      <workItem from="1532453835525" duration="7981000" />
+      <workItem from="1532547051301" duration="4963000" />
+      <workItem from="1532704668104" duration="2446000" />
+      <workItem from="1532886822972" duration="4595000" />
+      <workItem from="1533908672171" duration="373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1260632000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-modules-shown value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.077922076" sideWeight="0.49746513" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20571126" sideWeight="0.82202303" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6579602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20571126" sideWeight="0.17797695" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22980501" sideWeight="0.50253487" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04368359" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.460199" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/components/app.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/app.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/app.module.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/app.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.main.js.map" />
+        <option value="$PROJECT_DIR$/src/app/app.main.js" />
+        <option value="$PROJECT_DIR$/src/app/components/header.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/header.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/login.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/login.component.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/login.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/login.module.js" />
+        <option value="$PROJECT_DIR$/src/app/services/login.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/login.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/communication.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/communication.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/communication.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/communication.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/webserver.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/webserver.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/error.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/error.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/modal.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/modal.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/config/app.config.js" />
+        <option value="$PROJECT_DIR$/src/app/config/app.config.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/server.message.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/server.message.object.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/user.roles.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/user.roles.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/navigation.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/navigation.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/config/app.run.js.map" />
+        <option value="$PROJECT_DIR$/src/app/config/app.run.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/languages.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/languages.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/language.interface.js" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/language.interface.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/language.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/language.service.js" />
+        <option value="$PROJECT_DIR$/src/app/components/products.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/products.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/products.module.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/products.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/products.tab.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/products.tab.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/categories.tab.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/categories.tab.component.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/category.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/category.object.js" />
+        <option value="$PROJECT_DIR$/src/app/services/category.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/category.service.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/credentials.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/credentials.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/authentication.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/authentication.service.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/request.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/request.object.js" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/base64.interface.js.map" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/base64.interface.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/db.messages.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/db.messages.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/product.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/product.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/helpers/alert.helper.js" />
+        <option value="$PROJECT_DIR$/src/app/helpers/alert.helper.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/orders.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/orders.component.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/orders.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/orders.module.js" />
+        <option value="$PROJECT_DIR$/src/app/services/order.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/order.service.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/customers.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/customers.module.js" />
+        <option value="$PROJECT_DIR$/src/app/services/customer.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/customer.service.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/order.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/order.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/netwrok.service.interface.js.map" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/netwrok.service.interface.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/edit.ticket.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/edit.ticket.object.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/monitor.module.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/monitor.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/monitor.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/monitor.service.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/category/category.add.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/category/category.add.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/customer/customer.base.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/customer/customer.base.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/order/order.base.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/order/order.base.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/helpers/date.helper.js" />
+        <option value="$PROJECT_DIR$/src/app/helpers/date.helper.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/configuration.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/configuration.service.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/configuration.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/configuration.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/monitor/monitor.base.tab.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/monitor/monitor.base.tab.component.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/settings.module.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/settings.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/callback.service.interface.js.map" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/callback.service.interface.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/alert.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/alert.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/order/order.approve.updated.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/order/order.approve.updated.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/deliveries.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/deliveries.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/deliveries.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/deliveries.module.js" />
+        <option value="$PROJECT_DIR$/src/app/services/deliveries.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/deliveries.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/order/order.view.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/order/order.view.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/services/toast.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/toast.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/home.module.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/home.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/home.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/home.component.js" />
+        <option value="$PROJECT_DIR$/src/app/services/statistics.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/statistics.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/statistics.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/statistics.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/helpers/busy.helper.js.map" />
+        <option value="$PROJECT_DIR$/src/app/helpers/busy.helper.js" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/tab.manager.interface.js" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/tab.manager.interface.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/common/not.found.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/common/not.found.component.js" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/cached.service.interface.js.map" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/cached.service.interface.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/confirm.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/confirm.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/services/confirmation.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/confirmation.service.js" />
+        <option value="$PROJECT_DIR$/src/app/components/monitor/monitor.note.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/monitor/monitor.note.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/common/bm.toggle.btn.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/common/bm.toggle.btn.component.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/chat.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/chat.module.js" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.box.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.box.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.room.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.room.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.rooms.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.rooms.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.msg.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/chat/chat.msg.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.msg.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.msg.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/chat.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/chat.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/services/chat.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/chat.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.department.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.department.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.poll.request.group.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.poll.request.group.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.poll.response.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.poll.response.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/chat.poll.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/chat.poll.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/common/bm.badge.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/common/bm.badge.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/system.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/system.component.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/system.module.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/system.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/system/users.tab.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/tabs/system/users.tab.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/users.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/users.module.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.scroll.handler.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/chat/chat.scroll.handler.object.js" />
+        <option value="$PROJECT_DIR$/src/app/services/chat.room.service.js" />
+        <option value="$PROJECT_DIR$/src/app/services/chat.room.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/users.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/users.service.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/user/user.access.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/user/user.access.object.js" />
+        <option value="$PROJECT_DIR$/src/app/services/permissions.service.js.map" />
+        <option value="$PROJECT_DIR$/src/app/services/permissions.service.js" />
+        <option value="$PROJECT_DIR$/src/app/directives/restricted.directive.js.map" />
+        <option value="$PROJECT_DIR$/src/app/directives/restricted.directive.js" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/directive.options.interface.js.map" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/directive.options.interface.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/access.level.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/access.level.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/user/user.base.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/user/user.base.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/user/user.edit.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/user/user.edit.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/user/user.filter.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/user/user.filter.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/user/user.add.modal.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/modals/user/user.add.modal.component.js" />
+        <option value="$PROJECT_DIR$/src/app/directives/confirm.validate.directive.js.map" />
+        <option value="$PROJECT_DIR$/src/app/directives/confirm.validate.directive.js" />
+        <option value="$PROJECT_DIR$/src/app/constants/router.state.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/router.state.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/components/reports.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/reports.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/modules/reports.module.js" />
+        <option value="$PROJECT_DIR$/src/app/modules/reports.module.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/report.constants.js.map" />
+        <option value="$PROJECT_DIR$/src/app/constants/report.constants.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/product/product.filter.object.js" />
+        <option value="$PROJECT_DIR$/src/app/objects/product/product.filter.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/customer/customer.filter.object.js.map" />
+        <option value="$PROJECT_DIR$/src/app/objects/customer/customer.filter.object.js" />
+        <option value="$PROJECT_DIR$/src/app/components/monitor/status.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/monitor/status.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/reports.host.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/reports.host.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/report.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/report.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/products/report.products.result.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/products/report.products.result.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/customers/report.customers.result.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/customers/report.customers.result.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/orders/report.orders.result.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/reports/orders/report.orders.result.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/base.table.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/base.table.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/orders.table.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/orders.table.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/order.rows.table.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/order.rows.table.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/monitor.products.table.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/monitor.products.table.component.js.map" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/state.table.component.js" />
+        <option value="$PROJECT_DIR$/src/app/components/tables/state.table.component.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/config/app.config.ts</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/services/category.service.ts</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/components/reports/reports.host.component.ts</url>
+          <line>1</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="38" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/constants/report.constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/reports/orders/report.orders.group.by.constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/reports/reports.host.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tables/orders.group.by.products.table.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/objects/order/order.filter.object.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-812">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/monitor/monitor.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/objects/monitor/monitor.order.row.object.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tables/products.table.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="36" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/objects/monitor/monitor.order.row.group.object.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/monitor/monitor.progress.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modules/monitor.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/monitor/monitor.status.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/reports/products/report.products.result.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tabs/products.tab.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tabs/users.tab.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tabs/categories.tab.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/orders.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="87" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/customers.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="39" column="115" lean-forward="false" selection-start-line="39" selection-start-column="101" selection-end-line="39" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/angular/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4595">
+          <caret line="1005" column="14" lean-forward="false" selection-start-line="1005" selection-start-column="14" selection-end-line="1005" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tabs/monitor.products.tab.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="84" lean-forward="false" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/interfaces/callback.service.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/monitor.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1238">
+          <caret line="117" column="47" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tabs/monitor/monitor.products.tab.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tabs/monitor/monitor.base.tab.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/constants/webserver.constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modules/orders.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tabs/monitor.orders.tab.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tables/orders.table.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="69" lean-forward="true" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tables/order.rows.table.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tables/order.rows.table.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tables/products.table.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tables/customers.table.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tabs/monitor/monitor.orders.tab.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tables/customers.table.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="32" column="84" lean-forward="false" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modules/customers.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/customers.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/reports/customers/report.customers.result.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/assets/css/app-general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tables/base.table.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tables/state.table.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="60" lean-forward="false" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/reports/orders/report.orders.result.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="35" column="78" lean-forward="false" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tables/monitor.products.table.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/tables/monitor.products.table.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="82" column="34" lean-forward="false" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/tables/orders.table.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/orders.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#3324#3710#0" expanded="false" />
+            <element signature="n#!!block;n#getOrdersBetweenDates#0;n#OrdersComponent#0" expanded="false" />
+            <element signature="n#!!block;n#getOrdersFromServer#0;n#OrdersComponent#0" expanded="false" />
+            <element signature="n#!!block;n#addOrder#0;n#OrdersComponent#0" expanded="false" />
+            <element signature="n#!!block;n#updateOrder#0;n#OrdersComponent#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/languages/lang-heb.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="122" column="18" lean-forward="false" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/languages/lang-en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="122" column="2" lean-forward="true" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/templates/reports/report.orders.form.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="102" column="35" lean-forward="false" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#form#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/reports/orders/report.orders.group.by.constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/reports/orders/report.orders.form.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!block;n#generate#0;n#ReportOrdersFormComponent#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

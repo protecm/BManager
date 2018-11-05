@@ -1,0 +1,22 @@
+<div class="page-header" style="text-align: center;">
+    <div>
+        <h1 translate="HEADER_TITLE">
+        </h1>
+    </div>
+    <form name="fromLanguage" role="form" style="position: absolute;top: 20px;right: 20px;">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="selectLanguage" translate="LANGUAGE">
+                </label>
+                <select id="selectLanguage" class="form-control"
+                        ng-model="vm.selectedLanguage" ng-options="item.name for item in vm.languages">
+                </select>
+            </div>
+        </div>
+    </form>
+    <div ng-if="vm.isLoggedIn" style="position: absolute;top: 70px;left: 20px;">
+        <span>
+            {{ 'LOGGED_IN' | translate }}: <b>{{vm.username}}</b>
+        </span>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div cg-busy="vm.cgBusyOrders">
+    <div class="col-sm-12" ng-if="vm.monitorOrderRows.length === 0">
+        <div class="strip strip-warning">
+            <span>
+                {{'NO_PRODUCTS_TO_MONITOR' | translate}}
+            </span>
+        </div>
+    </div>
+    <monitor-products-table data="vm.orders" state="'Monitoring'" tbody-style="{'cursor': 'pointer'}"
+                            sort-property="+order.supplyDate" is-collapsible="true" show-actions="true"
+                            on-row-start="vm.onRowStart" on-row-ready="vm.onRowReady"
+                            ng-if="vm.orders.length > 0">
+    </monitor-products-table>
+</div>

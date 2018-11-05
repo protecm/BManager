@@ -1,0 +1,204 @@
+<div>
+    <div class="modal-header" style="text-align: center;">
+        <div>
+            <h3 class="modal-title" id="modal-title">
+                {{ vm.title }}
+            </h3>
+        </div>
+        <div class="btn-group fixed-top-corner" uib-dropdown dropdown-append-to-body is-open="vm.isOrderOptionsOpened">
+            <button id="btnOrderOptions" type="button" class="btn btn-default" uib-dropdown-toggle
+                    ng-disabled="vm.isEditDisabled" ng-hide="vm.shouldHideOrderActions">
+                {{'ACTIONS'|translate}} <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" style="text-align: center;" uib-dropdown-menu role="menu" aria-labelledby="btnOrderOptions">
+                <li role="menuitem">
+                    <a href ng-click="vm.cancelOrder()">
+                    {{'CANCEL_ORDER'|translate}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="modal-body" id="modal-body">
+        <div id="divWarningStrip" class="col-sm-12 strip" ng-class="'strip-' + (vm.alert.type || 'warning')" ng-if="vm.isEditDisabled">
+            <div class="col-sm-10">
+                <p>
+                    {{vm.alert.msg | translate}}
+                </p>
+            </div>
+            <div class="col-sm-2">
+                <button class="btn btn-default btn-block" type="button" ng-click="vm.enableEdit()" ng-if="vm.alert.isResolvable">
+                    {{ 'EDIT' | translate}}
+                </button>
+            </div>
+        </div>
+        <form name="formAddOrder" ng-submit="vm.save(formAddOrder.$valid)" novalidate role="form" disabled>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="inputOrderId" class="col-sm-4 col-form-label" translate="ID">
+                    </label>
+                    <div class="col-sm-8">
+                        <input type="text" id="inputOrderId" name="inputOrderId" class="form-control" ng-value="vm.id" disabled>
+                    </div>
+                </div>
+                <div class="col-sm-6" ng-class="{ 'has-error' : formAddOrder.$submitted && formAddOrder.selectCustomer.$invalid }">
+                    <label for="selectCustomer" class="col-sm-4 col-form-label" translate="CUSTOMER">
+                    </label>
+                    <div class="col-sm-8">
+                        <ui-select id="selectCustomer" name="selectCustomer" ng-model="vm.selectedCustomer" theme="bootstrap" ng-disabled="vm.isEditDisabled" required>
+                            <ui-select-match placeholder="">{{$select.selected.name}}</ui-select-match>
+                            <ui-select-choices repeat="item in vm.customers | filter: $select.search">
+                                <div ng-bind-html="item.name | highlight: $select.search"></div>
+                            </ui-select-choices>
+                            <ui-select-no-choice>
+                                <not-found-view value="$select.search" msg="CUSTOMER_NO_FOUND"
+                                                callback="vm.createCustomer($select,$select.search)"
+                                                callback-label="ADD_CUSTOMER">
+                                </not-found-view>
+                            </ui-select-no-choice>
+                        </ui-select>
+                        <p ng-show="formAddOrder.$submitted && formAddOrder.selectCustomer.$invalid" class="help-block" translate="MANDATORY_FIELD">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="inputOrderDate" class="col-sm-4 col-form-label" translate="ORDER_DATE">
+                    </label>
+                    <div class="col-sm-8">
+                        <div ng-class="{ 'has-error' : formAddOrder.$submitted && formAddOrder.inputOrderDate.$invalid }">
+                            <p class="input-group">
+                                <input type="text" id="inputOrderDate" name="inputOrderDate" class="form-control" ng-model="vm.orderDate"
+                                       ng-required="true" uib-datepicker-popup="dd/MM/yyyy" is-open="vm.isOrderDateOpened"
+                                       datepicker-options="vm.dateOptions" ng-disabled="vm.isEditDisabled"
+                                       current-text="{{ 'TODAY' | translate}}" clear-text="{{ 'CLEAR' | translate}}" close-text="{{ 'CLOSE' | translate}}" />
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default" ng-click="vm.isOrderDateOpened = true" ng-disabled="vm.isEditDisabled">
+                                        <i class="glyphicon glyphicon-calendar"></i>
+                                    </button>
+                                </span>
+                                <p ng-show="formAddOrder.$submitted && formAddOrder.inputOrderDate.$invalid" class="help-block" translate="MANDATORY_FIELD">
+                                </p>
+                            </p>
+                        </div>
+                        <div ng-class="{ 'has-error' : formAddOrder.$submitted && !vm.orderTime }">
+                            <div uib-timepicker ng-model="vm.orderTime" hour-step="1" minute-step="1" show-meridian="false"
+                                 ng-required="true" style="direction: ltr;" ng-disabled="vm.isEditDisabled">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <label for="inputSupplyDate" class="col-sm-4 col-form-label" translate="SUPPLY_DATE">
+                    </label>
+                    <div class="col-sm-8">
+                        <div ng-class="{ 'has-error' : formAddOrder.$submitted && formAddOrder.inputSupplyDate.$invalid }">
+                            <p class="input-group">
+                                <input type="text" id="inputSupplyDate" name="inputSupplyDate" class="form-control" ng-model="vm.supplyDate"
+                                       ng-required="true" uib-datepicker-popup="dd/MM/yyyy" is-open="vm.isSupplyDateOpened"
+                                       datepicker-options="vm.dateOptions" ng-disabled="vm.isEditDisabled"
+                                       current-text="{{ 'TODAY' | translate}}" clear-text="{{ 'CLEAR' | translate}}" close-text="{{ 'CLOSE' | translate}}" />
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default" ng-click="vm.isSupplyDateOpened = true" ng-disabled="vm.isEditDisabled">
+                                        <i class="glyphicon glyphicon-calendar"></i>
+                                    </button>
+                                </span>
+                                <p ng-show="formAddOrder.$submitted && formAddOrder.inputSupplyDate.$invalid" class="help-block" translate="MANDATORY_FIELD">
+                                </p>
+                            </p>
+                        </div>
+                        <div ng-class="{ 'has-error' : formAddOrder.$submitted && !vm.supplyTime }">
+                            <div uib-timepicker ng-model="vm.supplyTime" hour-step="1" minute-step="1" show-meridian="false"
+                                 ng-required="true" style="direction: ltr;" ng-disabled="vm.isEditDisabled">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <label for="inputNotes" class="col-sm-2 col-form-label" translate="NOTES">
+                    </label>
+                    <div class="col-sm-10">
+                        <input type="text" id="inputNotes" name="inputNotes" class="form-control" ng-model="vm.notes.note" ng-disabled="vm.isEditDisabled">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="btnAddOrderRow" class="btn btn-success" ng-click="vm.addOrderRow()" ng-disabled="vm.isEditDisabled" ng-hide="vm.isEditDisabled">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    {{ 'ADD_ROW' | translate}}
+                </button>
+            </div>
+            <div>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="thead-light">
+                        <tr>
+                            <th class="col-sm-1"></th>
+                            <th class="col-sm-1">#</th>
+                            <th class="col-sm-4" translate="PRODUCT"></th>
+                            <th class="col-sm-2" translate="AMOUNT"></th>
+                            <th class="col-sm-4" translate="NOTES"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="row in vm.orderRows">
+                            <td>
+                                <button type="button" class="btn btn-danger" ng-click="vm.removeOrderRow($index)" ng-if="vm.orderRows.length > 1"
+                                        ng-disabled="vm.isEditDisabled" ng-hide="vm.isEditDisabled">
+                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                </button>
+                            </td>
+                            <td>
+                                {{ $index+1 }}
+                            </td>
+                            <td ng-class="{ 'has-error' : formAddOrder.$submitted && formAddOrder['selectProduct'+$index].$invalid }">
+                                <ui-select id="selectProduct{{$index}}" name="selectProduct{{$index}}" ng-model="row.product"
+                                           theme="bootstrap" append-to-body="true" ng-disabled="vm.isEditDisabled" required>
+                                    <ui-select-match placeholder="">{{$select.selected.name}}</ui-select-match>S
+                                    <ui-select-choices repeat="item in vm.products | filter: $select.search">
+                                        <div ng-bind-html="item.name | highlight: $select.search"></div>
+                                    </ui-select-choices>
+                                    <ui-select-no-choice>
+                                        <not-found-view value="$select.search" msg="PRODUCT_NO_FOUND"
+                                                        callback="vm.createProduct(row,$select,$select.search)"
+                                                        callback-label="ADD_PRODUCT">
+                                        </not-found-view>
+                                    </ui-select-no-choice>
+                                </ui-select>
+                                <p ng-show="formAddOrder.$submitted && formAddOrder['selectProduct'+$index].$invalid" class="help-block" translate="MANDATORY_FIELD">
+                                </p>
+                            </td>
+                            <td ng-class="{ 'has-error' : formAddOrder.$submitted && formAddOrder['rowAmount'+$index].$invalid }">
+                                <input type="number" id="rowAmount{{$index}}" name="rowAmount{{$index}}" min="1" class="form-control"
+                                       ng-model="row.amount" ng-disabled="vm.isEditDisabled" required>
+                                <p ng-show="formAddOrder.$submitted && formAddOrder['rowAmount'+$index].$invalid" class="help-block">
+                                    {{'MIN_VALUE'|translate}} - 1
+                                </p>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" ng-model="row.notes.note" ng-disabled="vm.isEditDisabled">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" type="submit" ladda="vm.isSaveInProcess" data-style="expand-left"
+                        data-spinner-size="25" ng-disabled="vm.isEditDisabled" ng-hide="vm.isEditDisabled">
+                    {{ 'SAVE' | translate}}
+                </button>
+                <button class="btn btn-danger btn-block" type="button" ng-click="vm.cancel()">
+                    {{ 'CANCEL' | translate}}
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+
+    </div>
+</div>

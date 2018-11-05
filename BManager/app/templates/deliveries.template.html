@@ -1,0 +1,88 @@
+<div cg-busy="vm.cgBusyOrders">
+    <div class="row" ng-if="vm.orders.length === 0">
+        <div class="strip strip-warning">
+            <span>
+                {{'NO_ORDERS_TO_DELIVER' | translate}}
+            </span>
+        </div>
+    </div>
+    <div class="row" style="margin: auto;">
+        <div class="col-sm-3" style="padding: 5px;" ng-repeat="order in vm.orders | orderBy:vm.sortProperty">
+            <div class="order-delivery-box">
+                <div class="order-delivery-header">
+                    <a href ng-click="vm.showOrder(order)">
+                    <span class="glyphicon glyphicon-file" aria-hidden="true">
+                    </span>
+                        {{'SHOW_ORDER'|translate}}
+                    </a>
+                </div>
+                <div class="order-delivery-body">
+                    <div class="form-group row">
+                        <monitor-progress-view monitor="order" type="'deliveries'">
+                        </monitor-progress-view>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" translate="ORDER_ID">
+                        </label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" ng-value="order.id" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" translate="CUSTOMER">
+                        </label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" ng-value="order.customer.name" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" translate="SUPPLY_DATE">
+                        </label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" ng-value="order.supplyDate | date:'dd/MM/yyyy - HH:mm'" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" translate="NOTES">
+                        </label>
+                        <div class="col-sm-8">
+                <textarea type="text" class="form-control" ng-value="order.notes.note" readonly>
+                </textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" translate="PHONE">
+                        </label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" ng-value="order.customer.phone" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <monitor-status-view monitor="order">
+                        </monitor-status-view>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-warning btn-block" ng-if="order.isWaitingPacking"
+                                ng-click="vm.packOrder(order)" ng-disabled="!order.isInDeliveries"
+                                ladda="vm.isPackingInProgress[order.id]" data-style="expand-left" data-spinner-size="25">
+                            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+                            {{ 'PACK' | translate}}
+                        </button>
+                        <button type="button" class="btn btn-success btn-block" ng-if="order.isPacking"
+                                ng-click="vm.readyOrder(order)" ng-disabled="!order.isInDeliveries"
+                                ladda="vm.isReadyOrderInProgress[order.id]" data-style="expand-left" data-spinner-size="25">
+                            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                            {{ 'FINISH' | translate}}
+                        </button>
+                        <button type="button" class="btn btn-info btn-block" ng-if="order.isPacked"
+                                ng-click="vm.supplyOrder(order)" ng-disabled="!order.isInDeliveries"
+                                ladda="vm.isSupplyInProgress[order.id]" data-style="expand-left" data-spinner-size="25">
+                            <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                            {{ 'SUPPLY' | translate}}
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

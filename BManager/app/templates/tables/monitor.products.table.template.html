@@ -1,0 +1,79 @@
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>#</th>
+                <th translate="ID"></th>
+                <th translate="PRODUCT"></th>
+                <th translate="AMOUNT"></th>
+                <th translate="STATUS"></th>
+                <th ng-if="vm.isCollapsible">
+                </th>
+            </tr>
+        </thead>
+        <tbody ng-style="vm.tbodyStyle">
+        <tr ng-repeat-start="(key, items) in vm.monitorOrderRows | groupBy: 'orderRow.product.id'" class="accordion-toggle" ng-click="vm.onRowClickImpl(key)">
+            <td>{{ $index+1 }}</td>
+            <td>{{ key }}</td>
+            <td>{{ items[0].orderRow.product.name }}</td>
+            <td>{{ vm.sumAmount(items) }}</td>
+            <td>
+                <monitor-progress-view monitor-group="items">
+                </monitor-progress-view>
+            </td>
+            <td ng-if="vm.isCollapsible">
+                <span class="glyphicon" ng-class="'glyphicon-chevron-' + (vm.isCollapsed[key]?'down':'up')" aria-hidden="true">
+                </span>
+            </td>
+        </tr>
+        <tr class="accordion-body" ng-class="{'collapse':vm.isCollapsible && !vm.isCollapsed[key]}" ng-repeat-end>
+            <td colspan="5" ng-if="!vm.hideProducts">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th translate="ORDER_ID"></th>
+                        <th translate="CUSTOMER"></th>
+                        <th translate="SUPPLY_DATE"></th>
+                        <th translate="AMOUNT"></th>
+                        <th translate="NOTES"></th>
+                        <th translate="STATUS"></th>
+                        <th ng-if="vm.showActions"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="monitorOrderRow in items | orderBy:vm.sortProperty" uib-tooltip="{{'APPROVE_ORDER_TO_ENABLE_ACTIONS' | translate}}"
+                        tooltip-enable="vm.isStateMonitoring && monitorOrderRow.order.isUnApproved">
+                        <td>{{ $index+1 }}</td>
+                        <td>{{ monitorOrderRow.orderRow.orderId }}</td>
+                        <td>{{ monitorOrderRow.order.customer.name }}</td>
+                        <td>{{ monitorOrderRow.order.supplyDate | date:'dd/MM/yyyy - HH:mm'}}</td>
+                        <td>{{ monitorOrderRow.orderRow.amount }}</td>
+                        <td>{{ monitorOrderRow.orderRow.notes.note }}</td>
+                        <td>
+                            <monitor-status-view monitor="monitorOrderRow.orderRow">
+                            </monitor-status-view>
+                        </td>
+                        <td ng-if="vm.showActions">
+                            <button type="button" id="btnStartRow" class="btn btn-warning btn-block" ng-if="monitorOrderRow.orderRow.isStartEnabled"
+                                    ng-click="vm.onRowStartImpl(monitorOrderRow)" ng-disabled="monitorOrderRow.order.isUnApproved"
+                                    ladda="vm.isStartRowInProgress[monitorOrderRow.orderRow.orderId + '-' + monitorOrderRow.orderRow.rowNumber]"
+                                    data-style="expand-left" data-spinner-size="25">
+                                <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                                {{ 'START' | translate}}
+                            </button>
+                            <button type="button" id="btnReadyRow" class="btn btn-success btn-block" ng-if="monitorOrderRow.orderRow.isInProgress"
+                                    ng-click="vm.onRowReadyImpl(monitorOrderRow)" ng-disabled="monitorOrderRow.order.isUnApproved"
+                                    ladda="vm.isReadyRowInProgress[monitorOrderRow.orderRow.orderId + '-' + monitorOrderRow.orderRow.rowNumber]" data-style="expand-left" data-spinner-size="25">
+                                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                {{ 'FINISH' | translate}}
+                            </button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

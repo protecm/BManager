@@ -1,0 +1,37 @@
+<div ng-if="vm.isVisible">
+    <form name="formReportProducts" ng-submit="vm.generate()" novalidate role="form">
+        <div class="col-sm-6">
+            <div class="form-group row">
+                <label for="inputProductName" class="col-sm-4 col-form-label" translate="NAME">
+                </label>
+                <div class="col-sm-8">
+                    <input type="text" id="inputProductName" name="inputProductName" class="form-control hidden-print"
+                           ng-model="vm.productName">
+                    <span class="visible-print underline">
+                        {{vm.productName}}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group row">
+                <label for="selectCategory" class="col-sm-4 col-form-label" translate="CATEGORY">
+                </label>
+                <div class="col-sm-8">
+                    <ui-select id="selectCategory" name="selectCategory" ng-model="vm.selectedCategory"
+                               class="hidden-print" theme="bootstrap">
+                        <ui-select-match placeholder="">{{$select.selected.name}}</ui-select-match>
+                        <ui-select-choices repeat="item in vm.categories | filter: $select.search">
+                            <div ng-bind-html="item.name | highlight: $select.search"></div>
+                        </ui-select-choices>
+                        <ui-select-no-choice>
+                        </ui-select-no-choice>
+                    </ui-select>
+                    <span class="visible-print underline">
+                        {{vm.selectedCategory.name}}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

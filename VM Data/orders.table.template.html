@@ -1,0 +1,67 @@
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead class="thead-light">
+        <tr>
+            <th class="col-sm-1">
+                #
+            </th>
+            <th class="col-sm-1">
+                {{ 'ID' | translate}}
+                <input type="text" ng-model="vm.filterItem.id" class="form-control" ng-if="vm.showFilters">
+            </th>
+            <th class="col-sm-4">
+                {{ 'ORDER_DATE' | translate}}
+                <div class="btn-group" style="display: table-cell;" ng-if="vm.showSorting">
+                    <label class="btn btn-default" ng-model="vm.sortProperty" uib-btn-radio="'+orderDate'">
+                                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true">
+                                </span>
+                    </label>
+                    <label class="btn btn-default" ng-model="vm.sortProperty" uib-btn-radio="'-orderDate'">
+                                <span class="glyphicon glyphicon-chevron-down" aria-hidden="true">
+                                </span>
+                    </label>
+                </div>
+            </th>
+            <th class="col-sm-4">
+                {{ 'CUSTOMER' | translate}}
+                <input type="text" ng-model="vm.filterItem.customer.name" class="form-control" ng-if="vm.showFilters">
+            </th>
+            <th class="col-sm-2">
+                {{ 'STATUS' | translate}}
+                <div class="btn-group" style="display: table-cell;" ng-if="vm.showSorting">
+                    <label class="btn btn-default" ng-model="vm.sortProperty" uib-btn-radio="'+status.description'">
+                                <span class="glyphicon glyphicon-chevron-up" aria-hidden="true">
+                                </span>
+                    </label>
+                    <label class="btn btn-default" ng-model="vm.sortProperty" uib-btn-radio="'-status.description'">
+                                <span class="glyphicon glyphicon-chevron-down" aria-hidden="true">
+                                </span>
+                    </label>
+                </div>
+            </th>
+        </tr>
+        </thead>
+        <tbody ng-style="vm.tbodyStyle">
+            <tr ng-repeat-start="order in vm.data | filter: vm.filterItem | orderBy:vm.sortProperty" ng-click="vm.onRowClickImpl(order)">
+                <td>{{ $index+1 }}</td>
+                <td>{{ order.id }}</td>
+                <td>{{ order.orderDate | date:'dd/MM/yyyy - HH:mm' }}</td>
+                <td>{{ order.customer.name }}</td>
+                <td ng-if="vm.isStateDefinition">
+                    <status-view monitor="order">
+                    </status-view>
+                </td>
+                <td ng-if="vm.isStateMonitoring">
+                    <monitor-status-view monitor="order">
+                    </monitor-status-view>
+                </td>
+            </tr>
+            <tr ng-repeat-end>
+                <td colspan="5" ng-if="vm.showProducts">
+                    <order-rows-table data="order.orderRows" state="vm.state">
+                    </order-rows-table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

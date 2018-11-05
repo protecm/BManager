@@ -1,0 +1,18 @@
+<div>
+    <uib-tabset active="activeJustified" justified="true">
+        <uib-tab index="0" select="vm.tabSelected(0)">
+            <uib-tab-heading>
+                {{ 'SETTINGS' | translate }}
+            </uib-tab-heading>
+            <settings-tab-view tab-index="0">
+            </settings-tab-view>
+        </uib-tab>
+        <uib-tab index="1" select="vm.tabSelected(1)">
+            <uib-tab-heading>
+                {{ 'USERS' | translate }}
+            </uib-tab-heading>
+            <users-tab-view tab-index="1">
+            </users-tab-view>
+        </uib-tab>
+    </uib-tabset>
+</div>

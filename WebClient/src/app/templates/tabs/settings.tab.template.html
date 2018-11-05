@@ -1,0 +1,67 @@
+<div class="row">
+        <form name="formEditSettings" ng-submit="vm.save(formEditSettings.$valid)" novalidate role="form">
+            <div class="col-sm-6">
+                <!--    PARAMETER CONFIGURATIONS     -->
+                <div class="form-group row"
+                     ng-class="{ 'has-error' : formEditSettings.$submitted && formEditSettings.inputMonitorActiveOrderHours.$invalid }">
+                    <label for="inputMonitorActiveOrderHours" class="col-sm-6 col-form-label" translate="ORDER_MONITORED_HOURS">
+                    </label>
+                    <div class="col-sm-6">
+                        <input type="number" id="inputMonitorActiveOrderHours" name="inputMonitorActiveOrderHours" min="1"
+                               class="form-control" ng-model="vm.monitorActiveOrderHours" required>
+                        <p ng-show="formEditSettings.$submitted && formEditSettings.inputMonitorActiveOrderHours.$invalid"
+                           class="help-block" translate="MANDATORY_FIELD">
+                        </p>
+                    </div>
+                </div>
+                <div class="form-group row"
+                     ng-class="{ 'has-error' : formEditSettings.$submitted && formEditSettings.inputMonitorRefreshRate.$invalid }">
+                    <label for="inputMonitorRefreshRate" class="col-sm-6 col-form-label" translate="MONITOR_REFRESH_MINUTES">
+                    </label>
+                    <div class="col-sm-6">
+                        <input type="number" id="inputMonitorRefreshRate" name="inputMonitorRefreshRate" min="1"
+                               class="form-control" ng-model="vm.monitorRefreshRateMinutes" required>
+                        <p ng-show="formEditSettings.$submitted && formEditSettings.inputMonitorRefreshRate.$invalid"
+                           class="help-block" translate="MANDATORY_FIELD">
+                        </p>
+                    </div>
+                </div>
+                <div class="form-group row"
+                     ng-class="{ 'has-error' : formEditSettings.$submitted && formEditSettings.inputDeliveriesRefreshRate.$invalid }">
+                    <label for="inputDeliveriesRefreshRate" class="col-sm-6 col-form-label" translate="DELIVERIES_REFRESH_MINUTES">
+                    </label>
+                    <div class="col-sm-6">
+                        <input type="number" id="inputDeliveriesRefreshRate" name="inputDeliveriesRefreshRate" min="1"
+                               class="form-control" ng-model="vm.deliveriesRefreshRateMinutes" required>
+                        <p ng-show="formEditSettings.$submitted && formEditSettings.inputDeliveriesRefreshRate.$invalid"
+                           class="help-block" translate="MANDATORY_FIELD">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <!--    ON/OFF CONFIGURATIONS     -->
+                <div class="form-group row">
+                    <label for="toggleCommentsEnforcement" class="col-sm-6 col-form-label" translate="ENFORCE_ORDER_COMMENTS">
+                    </label>
+                    <div class="col-sm-6">
+                        <toggle id="toggleCommentsEnforcement" name="toggleCommentsEnforcement" ng-model="vm.commentsEnforcement">
+                        </toggle>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="toggleChatMode" class="col-sm-6 col-form-label" translate="CHAT">
+                    </label>
+                    <div class="col-sm-6">
+                        <toggle id="toggleChatMode" name="toggleChatMode" ng-model="vm.chatMode">
+                        </toggle>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" type="submit" ladda="vm.isSaveInProcess" data-style="expand-left" data-spinner-size="25">
+                    {{ 'SAVE' | translate}}
+                </button>
+            </div>
+        </form>
+</div>

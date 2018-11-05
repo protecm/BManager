@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    -->
+    <title>Business Manager</title>
+
+    <!-- Core framework -->
+    <script src="app/vendors/js/shim.min.js"></script>
+    <script src="app/vendors/js/system.src.js"></script>
+    <script src="systemjs.config.debug.js"></script>
+
+    <!-- Core Angular -->
+    <script src="app/vendors/js/angular.min.js"></script>
+    <script src="app/vendors/js/angular-ui-router.min.js"></script>
+    <script src="app/vendors/js/angular-sanitize.min.js"></script>
+    <!--
+    ngAnimate slows down ng-if and ng-show... the solution is to override animation classes
+    https://stackoverflow.com/questions/26938021/angular-ng-if-or-ng-show-responds-slow-2second-delay
+    -->
+    <!--
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    -->
+
+    <script src="app/vendors/js/angular-filter.min.js"></script>
+
+    <!-- Angular Base64 UTF support -->
+    <script src="app/vendors/js/angular-utf8-base64.js"></script>
+
+    <!-- Angular Translate -->
+    <script src="app/vendors/js/angular-translate.min.js"></script>
+    <script src="app/vendors/js/angular-translate-loader-static-files.min.js"></script>
+
+    <!-- UI-SELECT files -->
+    <script src="app/vendors/js/select.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="app/vendors/css/select.min.css">
+
+    <!-- UI-Bootstrap -->
+    <script src="app/vendors/js/ui-bootstrap-tpls.js"></script>
+    <link rel="stylesheet" type="text/css" href="app/vendors/css/bootstrap.min.css">
+
+    <!-- Angular-Bootstrap-Toggle -->
+    <script src="app/vendors/js/angular-bootstrap-toggle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="app/vendors/css/angular-bootstrap-toggle.min.css">
+
+    <!-- Angular Ladda -->
+    <!-- https://github.com/remotty/angular-ladda -->
+    <link rel="stylesheet" type="text/css" href="app/vendors/css/ladda-themeless.min.css">
+    <script src="app/vendors/js/spin.min.js"></script>
+    <script src="app/vendors/js/ladda.min.js"></script>
+    <script src="app/vendors/js/angular-ladda.min.js"></script>
+
+    <!-- Angular Toastr -->
+    <!-- https://github.com/Foxandxss/angular-toastr -->
+    <link rel="stylesheet" type="text/css" href="app/vendors/css/angular-toastr.min.css">
+    <script src="app/vendors/js/angular-toastr.tpls.min.js"></script>
+
+    <!-- Angular Chart.js -->
+    <script src="app/vendors/js/Chart.min.js"></script>
+    <script src="app/vendors/js/angular-chart.min.js"></script>
+
+    <!-- Angular Busy -->
+    <link rel="stylesheet" type="text/css" href="app/vendors/css/angular-busy.min.css">
+    <script src="app/vendors/js/angular-busy.min.js"></script>
+
+    <!-- Utility Libraries -->
+    <script src="app/vendors/js/ng-lodash.min.js"></script>
+
+    <!-- Language Custom Stylesheet - loaded dynamically by language service -->
+    <link rel="stylesheet" type="text/css" href="app/assets/css/app-general.min.css">
+    <link rel="stylesheet" type="text/css" href="app/assets/css/app-print.min.css" media="print">
+
+    <script>
+        System.import('app')
+            .catch(function(err){
+                console.error(err);
+            });
+    </script>
+    <!--
+    <base href="/WebClient/">
+    -->
+    <!-- https://docs.angularjs.org/error/$location/nobase -->
+</head>
+<body>
+    <business-app>
+        Loading...
+    </business-app>
+</body>
+</html>

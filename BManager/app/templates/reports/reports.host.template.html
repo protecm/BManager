@@ -1,0 +1,48 @@
+<div class="panel panel-primary" style="margin-top: 15px;">
+    <div class="panel-heading" style="text-align: center;">
+        <h3 class="panel-title">
+            {{ 'REPORTS' | translate }}
+        </h3>
+    </div>
+    <div class="panel-body">
+        <div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group row">
+                        <label for="selectReportType" class="col-sm-4 col-form-label" translate="TYPE">
+                        </label>
+                        <div class="col-sm-8">
+                            <ui-select id="selectReportType" name="selectReportType" ng-model="vm.selectedReportType" theme="bootstrap"
+                                       on-select="vm.onReportTypeSelected($item)" search-enabled="false" ng-disabled="vm.isEditDisabled"
+                                       class="hidden-print" required>
+                                <ui-select-match placeholder="">{{$select.selected.name | translate}}</ui-select-match>
+                                <ui-select-choices repeat="item in vm.reportTypes">
+                                    <div ng-bind-html="item.name | translate"></div>
+                                </ui-select-choices>
+                                <ui-select-no-choice>
+                                </ui-select-no-choice>
+                            </ui-select>
+                            <span class="visible-print">
+                                {{vm.selectedReportType.name | translate}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                        </div>
+                        <div class="col-sm-2">
+                            <button type="button" id="btnPrintReport" class="btn btn-success" ng-click="vm.print()"
+                                    ng-if="vm.selectedReportType">
+                                <span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="divReports" class="row" ng-transclude>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<div>
+    <uib-tabset active="activeJustified" justified="true">
+        <uib-tab index="vm.TAB_INDEX_PRODUCTS_TAB" select="vm.tabSelected(vm.TAB_INDEX_PRODUCTS_TAB)">
+            <uib-tab-heading>
+                {{ 'PRODUCTS' | translate }}
+            </uib-tab-heading>
+            <products-tab-view tab-index="vm.TAB_INDEX_PRODUCTS_TAB">
+            </products-tab-view>
+        </uib-tab>
+        <uib-tab index="vm.TAB_INDEX_CATEGORIES_TAB" select="vm.tabSelected(vm.TAB_INDEX_CATEGORIES_TAB)">
+            <uib-tab-heading>
+                {{ 'CATEGORIES' | translate }}
+            </uib-tab-heading>
+            <categories-tab-view tab-index="vm.TAB_INDEX_CATEGORIES_TAB">
+            </categories-tab-view>
+        </uib-tab>
+    </uib-tabset>
+</div>

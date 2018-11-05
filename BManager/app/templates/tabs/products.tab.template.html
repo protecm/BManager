@@ -1,0 +1,14 @@
+<div>
+    <div>
+        <button type="button" id="btnAddProduct" class="btn btn-success" ng-click="vm.createProduct()">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            {{ 'ADD_PRODUCT' | translate}}
+        </button>
+    </div>
+    <div>
+        <products-table data="vm.products" show-filters="true" show-actions="true"
+                         on-row-click="vm.editProduct" on-delete-action="vm.deleteProductRequest"
+                         tbody-style="{'cursor': 'pointer'}">
+        </products-table>
+    </div>
+</div>

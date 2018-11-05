@@ -1,0 +1,146 @@
+<div cg-busy="vm.cgBusyOrders">
+    <div class="row" ng-if="vm.orders.length === 0">
+        <div class="strip strip-warning">
+            <span>
+                {{'NO_ORDERS_TO_MONITOR' | translate}}
+            </span>
+        </div>
+    </div>
+    <div class="table-responsive" ng-if="vm.orders.length > 0">
+        <table class="table table-hover">
+            <thead class="thead-light">
+            <tr>
+                <th>#</th>
+                <th translate="ID"></th>
+                <th translate="SUPPLY_DATE"></th>
+                <th translate="CUSTOMER"></th>
+                <th translate="NOTES"></th>
+                <th translate="STATUS"></th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody style="cursor: pointer;">
+            <tr ng-repeat-start="order in vm.orders | orderBy:vm.sortProperty" id="order{{$index}}" class="accordion-toggle" ng-class="{'info':vm.isCollapsed[order.id]}" ng-click="vm.toggleColapse(order.id)">
+                <td>{{ $index+1 }}</td>
+                <td>{{ order.id }}</td>
+                <td>{{ order.supplyDate | date:'dd/MM/yyyy - HH:mm' }}</td>
+                <td>{{ order.customer.name }}</td>
+                <td>
+                    <monitor-note-view note="order.notes" on-resolve="vm.resolveOrderNotes(order)">
+                    </monitor-note-view>
+                </td>
+                <td>
+                    <monitor-status-view monitor="order">
+                    </monitor-status-view>
+                </td>
+                <td>
+                    <span class="glyphicon" ng-class="'glyphicon-chevron-' + (vm.isCollapsed[order.id]?'down':'up')" aria-hidden="true">
+                    </span>
+                </td>
+                <td style="text-align: center;">
+                    <div class="tooltip-wrapper" uib-tooltip="{{'RESOLVE_NOTES_TO_ENABLE_APPROVAL' | translate}}"
+                         tooltip-enable="vm.isNotesEnforced && !order.isNotesResolved">
+                        <button type="button" id="btnApproveOrder" class="btn btn-primary btn-block" ng-if="order.isUnApproved"
+                                ng-click="vm.approveOrder(order);$event.stopPropagation();"
+                                ng-disabled="vm.isNotesEnforced && !order.isNotesResolved"
+                                ladda="vm.isApproveInProgress[order.id]" data-style="expand-left" data-spinner-size="25">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            {{ 'APPROVE' | translate}}
+                        </button>
+                    </div>
+                    <button type="button" id="btnMoveOrderToDeliveries" class="btn btn-success btn-block"
+                            ng-if="order.isReady && !order.isUpdated && !order.isInDeliveries"
+                            ng-click="vm.moveOrderToDeliveries(order);$event.stopPropagation();"
+                            ladda="vm.isMoveOrderToDeliveriesInProgress[order.id]" data-style="expand-left" data-spinner-size="25">
+                        <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+                        {{ 'FINISH' | translate}}
+                    </button>
+                </td>
+            </tr>
+            <tr class="no-hover">
+                <td colspan="7" style="border: none;padding-top: 5px;">
+                    <monitor-progress-view monitor="order">
+                    </monitor-progress-view>
+                </td>
+            </tr>
+            <tr class="accordion-body" ng-class="{'collapse':!vm.isCollapsed[order.id]}" ng-repeat-end>
+                <td colspan="6">
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th translate="ID"></th>
+                            <th translate="PRODUCT"></th>
+                            <th translate="AMOUNT"></th>
+                            <th translate="NOTES"></th>
+                            <th translate="STATUS"></th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="orderRow in order.orderRows" uib-tooltip="{{'APPROVE_ORDER_TO_ENABLE_ACTIONS' | translate}}"
+                            tooltip-enable="order.isUnApproved">
+                            <td>{{ $index+1 }}</td>
+                            <td>{{ orderRow.product.id }}</td>
+                            <td>{{ orderRow.product.name }}</td>
+                            <td>{{ orderRow.amount }}</td>
+                            <td>
+                                <monitor-note-view note="orderRow.notes" on-resolve="vm.resolveOrderRowNotes(orderRow)">
+                                </monitor-note-view>
+                            </td>
+                            <td>
+                                <monitor-status-view monitor="orderRow">
+                                </monitor-status-view>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-sm-9">
+                                        <button type="button" id="btnStartRow" class="btn btn-warning btn-block" ng-if="orderRow.isStartEnabled"
+                                                ng-click="vm.startRow(orderRow, order)" ng-disabled="order.isUnApproved"
+                                                ladda="vm.isStartRowInProgress[orderRow.orderId + '-' + orderRow.rowNumber]" data-style="expand-left" data-spinner-size="25">
+                                            <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                                            {{ 'START' | translate}}
+                                        </button>
+                                        <button type="button" id="btnReadyRow" class="btn btn-success btn-block" ng-if="orderRow.isInProgress"
+                                                ng-click="vm.readyRow(orderRow, order)" ng-disabled="order.isUnApproved"
+                                                ladda="vm.isReadyRowInProgress[orderRow.orderId + '-' + orderRow.rowNumber]" data-style="expand-left" data-spinner-size="25">
+                                            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                            {{ 'FINISH' | translate}}
+                                        </button>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="btn-group btn-block" uib-dropdown is-open="vm.isQuickBtnOpen[orderRow.orderId + '-' + orderRow.rowNumber]">
+                                            <button id="btnQuickActions" type="button" class="btn btn-default" uib-dropdown-toggle ng-disabled="order.isUnApproved">
+                                                <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" style="text-align: center;" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                                                <li role="menuitem" ng-if="!orderRow.isNew">
+                                                    <a href ng-click="vm.quickActionOnRow(orderRow, order, 'NEW')">
+                                                        {{ 'NEW' | translate }}
+                                                    </a>
+                                                </li>
+                                                <li role="menuitem" ng-if="!orderRow.isInProgress">
+                                                    <a href ng-click="vm.quickActionOnRow(orderRow, order, 'IN_PROGRESS')">
+                                                        {{ 'IN_PROGRESS' | translate }}
+                                                    </a>
+                                                </li>
+                                                <li role="menuitem" ng-if="!orderRow.isReady">
+                                                    <a href ng-click="vm.quickActionOnRow(orderRow, order, 'READY')">
+                                                        {{ 'READY' | translate }}
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
