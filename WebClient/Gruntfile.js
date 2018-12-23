@@ -5,6 +5,11 @@ module.exports = function(grunt) {
             release : ['release'],
             'vendors-debug': ['src/app/vendors']
         },
+        ts: {
+            default : {
+                tsconfig: './tsconfig.json'
+            }
+        },
         uglify : {
             options: {
                 mangle: false
@@ -123,6 +128,7 @@ module.exports = function(grunt) {
         }
     });
 
+    grunt.loadNpmTasks("grunt-ts");
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -130,7 +136,8 @@ module.exports = function(grunt) {
 
     //  DEBUG
     grunt.registerTask('copy-vendor-debug', ['clean:vendors-debug','copy:vendor-js-debug','copy:vendor-css-debug','copy:vendor-fonts-debug']);
-    grunt.registerTask('build-debug', ['copy-vendor-debug','cssmin:debug-assets']);
+    grunt.registerTask('compile-typescript', ['ts']);
+    grunt.registerTask('build-debug', ['compile-typescript','copy-vendor-debug','cssmin:debug-assets']);
 
     //  RELEASE
     grunt.registerTask('copy-templates-release', ['copy:index-release','copy:systemjs-config-release']);

@@ -1,2 +1,4 @@
 **/node_modules/
 /BManager/
+/WebClient/src/app/**/*.js
+/WebClient/src/app/**/*.js.map
